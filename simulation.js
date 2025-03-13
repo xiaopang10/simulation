@@ -1,3 +1,6 @@
+// Add this at the top of simulation.js
+const satellite = window.satellite;
+
 // Helper function to parse TLE epoch
 function parseTLEEpoch(tleLine1) {
     const year = parseInt(tleLine1.substr(18, 2));
